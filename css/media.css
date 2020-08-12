@@ -1,0 +1,63 @@
+@media (max-width: 991px){
+    .banner__container{
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 775px){
+    
+    header .logo{
+        font-size: 20px;
+    }
+    
+    header .toggle::after{
+        width: 25px;
+        margin-top: 15px;
+    }
+    
+    header .toggle::before{
+        width: 40px;
+        margin-bottom: 15px;
+    }
+    
+    .banner .text-box h2{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .banner .text-box .title{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .banner .text-box .subtitle{
+        font-size: 15px;
+        margin:5px 0;
+    }
+    
+    .banner .text-box .subtitle::before{
+        width: 5px;
+        height: 5px;
+        top: 6px;
+    }
+    
+    .banner .text-box .more{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    
+    .banner__container{
+        display: block;
+        padding: 150px 20px 50px;
+    }
+    
+    .banner::before{
+        display: none;
+    }
+    
+    .banner .slider-box{
+        margin-left: 0;
+        margin: 50px auto 0;
+    }
+}
+    
